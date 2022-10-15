@@ -134,51 +134,81 @@
       </section>
 
       <!-- Profile Section  -->
-      <!-- <section class="section profile">
+      <section class="section profile">
         <div class="container">
           <h2 class="h2-title profile__title">Чим ми займаємося</h2>
           <ul class="profile__profile-list">
             <li>
               <div class="profile__card-wrapper">
-                <img
-                  class="profile__profile-img"
-                  src="./images/profile/desktop/profile-01-ls.jpg"
-                  alt="Picture_01"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/profile/desktop/profile-01-ls.jpg 1x,
+                      ./images/profile/desktop/profile-01-ls@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    class="profile__profile-img"
+                    src="./images/profile/desktop/profile-01-ls.jpg"
+                    alt="мы делаем сайты"
+                    width="370"
+                    height="294"
+                    loading="lazy"
+                  />
+                </picture>
                 <h3 class="profile__description-title">Десктопні додатки</h3>
               </div>
             </li>
 
             <li>
               <div class="profile__card-wrapper">
-                <img
-                  class="profile__profile-img"
-                  src="./images/profile/desktop/profile-02-ls.jpg"
-                  alt="Picture_01"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/profile/desktop/profile-02-ls.jpg 1x,
+                      ./images/profile/desktop/profile-02-ls@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    class="profile__profile-img"
+                    src="./images/profile/desktop/profile-02-ls.jpg"
+                    alt="мы делаем сайты"
+                    width="370"
+                    height="294"
+                    loading="lazy"
+                  />
+                </picture>
                 <h3 class="profile__description-title">Мобільні додатки</h3>
               </div>
             </li>
 
             <li>
               <div class="profile__card-wrapper">
-                <img
-                  class="profile__profile-img"
-                  src="./images/profile/desktop/profile-03-ls.jpg"
-                  alt="Picture_01"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/profile/desktop/profile-03-ls.jpg 1x,
+                      ./images/profile/desktop/profile-03-ls@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <img
+                    class="profile__profile-img"
+                    src="./images/profile/desktop/profile-03-ls.jpg"
+                    alt="мы делаем сайты"
+                    width="370"
+                    height="294"
+                    loading="lazy"
+                  />
+                </picture>
                 <h3 class="profile__description-title">Дизайнерські рішення</h3>
               </div>
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- Team Section  -->
       <!-- <section class="section team">

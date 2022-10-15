@@ -147,6 +147,21 @@ body {
   color: var(--primary-white);
 }
 
+.h2-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+.h3-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+
 .paragraph {
   line-height: 1.71;
   color: var(--secondary-text-color);
@@ -412,7 +427,13 @@ body {
 }
 
 .profile {
+  display: none;
   padding-top: 0px;
+}
+@media (min-width: 1200px) {
+  .profile {
+    display: block;
+  }
 }
 
 .profile__title {
