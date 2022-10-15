@@ -1,18 +1,18 @@
 /* UTILITIES*/
 .container {
-  width: 480px;
+  max-width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  // border: 1px red solid;
+  border: 1px red solid;
 
   @media (min-width:768px) {
-    width: 768px;
+    max-width: 768px;
     // border: 1px blue solid;
   }
 
   @media (min-width:1200px) {
-    width: 1200px;
+    max-width: 1200px;
     // border: 1px green solid;
   }
 }
