@@ -211,18 +211,44 @@
       </section>
 
       <!-- Team Section  -->
-      <!-- <section class="section team">
+      <section class="section team">
         <div class="container">
           <h2 class="h2-title team__title">Наша команда</h2>
 
           <ul class="card-list">
             <li class="card-list__card-wrapper">
-              <img
-                src="./images/team/desktop/team-01-ls.jpg"
-                alt="Photo01"
-                width="270"
-                height="250"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/desktop/team-01-ls.jpg 1x,
+                    ./images/team/desktop/team-01-ls@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/team/tablet/team-01-ms.jpg 1x,
+                    ./images/team/tablet/team-01-ms@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/team/mobile/team-01-ss.jpg 1x,
+                    ./images/team/mobile/team-01-ss@2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  class="team-img"
+                  src="./images/team/mobile/team-01-ss.jpg"
+                  alt="Ігор Дем'яненко"
+                  loading="lazy"
+                />
+              </picture>
+              
               <div class="card-list__container">
                 <h3 class="card-list__title">Ігор Дем'яненко</h3>
                 <p class="card-list__subtitle">Product Designer</p>
@@ -263,12 +289,39 @@
             </li>
 
             <li class="card-list__card-wrapper">
-              <img
-                src="./images/team/desktop/team-02-ls.jpg"
-                alt="Photo02"
-                width="270"
-                height="250"
-              />
+              
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/desktop/team-02-ls.jpg 1x,
+                    ./images/team/desktop/team-02-ls@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/team/tablet/team-02-ms.jpg 1x,
+                    ./images/team/tablet/team-02-ms@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/team/mobile/team-02-ss.jpg 1x,
+                    ./images/team/mobile/team-02-ss@2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  class="team-img"
+                  src="./images/team/mobile/team-02-ss.jpg"
+                  alt="Ольга Рєпіна"
+                  loading="lazy"
+                />
+              </picture>
+
               <div class="card-list__container">
                 <h3 class="card-list__title">Ольга Рєпіна</h3>
                 <p class="card-list__subtitle">Frontend Developer</p>
@@ -309,12 +362,39 @@
             </li>
 
             <li class="card-list__card-wrapper">
-              <img
-                src="./images/team/desktop/team-03-ls.jpg"
-                alt="Photo03"
-                width="270"
-                height="250"
-              />
+              
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/desktop/team-03-ls.jpg 1x,
+                    ./images/team/desktop/team-03-ls@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/team/tablet/team-03-ms.jpg 1x,
+                    ./images/team/tablet/team-03-ms@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/team/mobile/team-03-ss.jpg 1x,
+                    ./images/team/mobile/team-03-ss@2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  class="team-img"
+                  src="./images/team/mobile/team-03-ss.jpg"
+                  alt="Микола Тарасов"
+                  loading="lazy"
+                />
+              </picture>
+
               <div class="card-list__container">
                 <h3 class="card-list__title">Микола Тарасов</h3>
                 <p class="card-list__subtitle">Marketing</p>
@@ -355,12 +435,39 @@
             </li>
 
             <li class="card-list__card-wrapper">
-              <img
-                src="./images/team/desktop/team-04-ls.jpg"
-                alt="Photo04"
-                width="270"
-                height="250"
-              />
+              
+              <picture>
+                <source
+                  srcset="
+                    ./images/team/desktop/team-04-ls.jpg 1x,
+                    ./images/team/desktop/team-04-ls@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/team/tablet/team-04-ms.jpg 1x,
+                    ./images/team/tablet/team-04-ms@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ./images/team/mobile/team-04-ss.jpg 1x,
+                    ./images/team/mobile/team-04-ss@2x.jpg 2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  class="team-img"
+                  src="./images/team/mobile/team-04-ss.jpg"
+                  alt="Михайло Єрмаков"
+                  loading="lazy"
+                />
+              </picture>
+
               <div class="card-list__container">
                 <h3 class="card-list__title">Михайло Єрмаков</h3>
                 <p class="card-list__subtitle">UI Designer</p>
@@ -401,7 +508,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- <section class="section">
         <div class="container">
