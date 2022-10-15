@@ -1,0 +1,23 @@
+.benefits__list {
+  display: flex;
+  gap: 30px;
+}
+
+.benefits__item {
+  width: 270px;
+}
+
+.benefits__icon-wrapper {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-section);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.benefits__title {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,72 @@
+.logo {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: #000000;
+  }
+  
+  .logo__accent {
+    color: var(--accent-color);
+  }
+  
+  .h1-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white);
+  }
+  
+  .h2-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+  }
+  
+  .h3-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+  }
+  
+  .h3-portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+  }
+  
+  .paragraph {
+    line-height: 1.71;
+    color: var(--secondary-text-color);
+  }
+  
+  .button {
+    display: block;
+    background-color: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    padding: 10px 32px;
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+  
+    color: var(--primary-white);
+  }
+  
+  .button:focus {
+    background-color: var(--active-color);
+  }
+  
+  .icon {
+    fill: currentColor;
+  }
