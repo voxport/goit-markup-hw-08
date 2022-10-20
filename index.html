@@ -22,12 +22,70 @@
     <header class="header">
       <div class="container header-wrapper">
         <a class="logo header-logo" href="./index.html"
-          ><span class="logo__accent">Web</span>Studio</a
-        >
+          ><span class="logo__accent">Web</span>Studio</a>
 
-        <svg class="mobile-menu__icon" width="40" height="40">
-          <use href="./images/icons.svg#icon-menu_40px"></use>
-        </svg>
+          <!-- burger-btn -->
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="burger-btn-icon" width="24" height="16">
+              <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
+
+          <div class="menu-container js-menu-container" id="mobile-menu">
+            <button
+              class="menu-toggle js-open-menu"
+              aria-expanded="false"
+              aria-controls="mobile-menu"
+            >
+              <svg class="burger-btn-close-icon burger-btn-icon" width="19" height="19">
+                <use href="./images/icons.svg#icon-close-burger-btn"></use>
+              </svg>
+            </button>
+
+            <ul class="mobile-menu">
+              <li><a href="" class="mobile-link">Студія</a></li>
+              <li><a href="" class="mobile-link">Портфоліо</a></li>
+              <li><a href="" class="mobile-link">Контакти</a></li>
+            </ul>
+            <div>
+              <a class="mobile-menu-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+              <a class="mobile-menu-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+  
+              <ul class="mobile-social-list"> 
+                <li>
+                  <a class="mobile-social-link" href="#">Instagram</a>
+                </li>
+  
+                <li>
+                  <a class="mobile-social-link" href="#">Twitter</a>
+                </li>
+  
+                <li>
+                  <a class="mobile-social-link" href="#">Facebook</a>
+                </li>
+  
+                <li>
+                  <a class="mobile-social-link" href="#">LinkedIn</a>
+                </li>
+  
+              </ul>
+            </div>
+
+            
+          </div>
+
+
+
+
+
+
+
+
+
 
         <nav class="navigation">
           <ul class="navigation__navigation-list">
@@ -720,5 +778,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
