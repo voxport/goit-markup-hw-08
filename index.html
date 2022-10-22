@@ -22,70 +22,86 @@
     <header class="header">
       <div class="container header-wrapper">
         <a class="logo header-logo" href="./index.html"
-          ><span class="logo__accent">Web</span>Studio</a>
+          ><span class="logo__accent">Web</span>Studio</a
+        >
 
-          <!-- burger-btn -->
-          <button
-            class="menu-toggle js-open-menu"
-            aria-expanded="false"
-            aria-controls="mobile-menu"
-          >
-            <svg class="burger-btn-icon" width="24" height="16">
-              <use href="./images/icons.svg#icon-burger"></use>
-            </svg>
-          </button>
-
-          <div class="menu-container js-menu-container" id="mobile-menu">
-            <button
-              class="menu-toggle js-open-menu"
-              aria-expanded="false"
-              aria-controls="mobile-menu"
-            >
-              <svg class="burger-btn-close-icon burger-btn-icon" width="19" height="19">
-                <use href="./images/icons.svg#icon-close-burger-btn"></use>
-              </svg>
-            </button>
-
-            <ul class="mobile-menu">
-              <li><a href="" class="mobile-link">Студія</a></li>
-              <li><a href="" class="mobile-link">Портфоліо</a></li>
-              <li><a href="" class="mobile-link">Контакти</a></li>
-            </ul>
-            <div>
-              <a class="mobile-menu-tel" href="tel:+380961111111">+38 096 111 11 11</a>
-              <a class="mobile-menu-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-  
-              <ul class="mobile-social-list"> 
-                <li>
-                  <a class="mobile-social-link" href="#">Instagram</a>
-                </li>
-  
-                <li>
-                  <a class="mobile-social-link" href="#">Twitter</a>
-                </li>
-  
-                <li>
-                  <a class="mobile-social-link" href="#">Facebook</a>
-                </li>
-  
-                <li>
-                  <a class="mobile-social-link" href="#">LinkedIn</a>
-                </li>
-  
-              </ul>
-            </div>
-
-            
-          </div>
-
-
-
-
-
-
-
-
-
+        <!-- mobile-menu -->
+        <div class="mobile-menu" id="mobile-menu" data-menu>
+          <ul class="mobile-menu__nav">
+            <li class="mobile-menu__nav-item">
+              <a class="mobile-menu__nav-link mobile-menu__nav-link--current" href="./index.html"
+                >Студія
+              </a>
+            </li>
+            <li class="mobile-menu__nav-item">
+              <a class="mobile-menu__nav-link" href="./portfolio.html">Портфоліо </a>
+            </li>
+            <li class="mobile-menu__nav-item">
+              <a class="mobile-menu__nav-link" href="#">Контакти</a>
+            </li>
+          </ul>
+          <ul class="mobile-menu__contacts">
+            <li class="mobile-menu__contacts-item">
+              <a class="mobile-menu__contacts--tel" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+            <li class="mobile-menu__contacts-item">
+              <a class="mobile-menu__contacts--email" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile-menu__socials">
+            <li class="mobile-menu__socials-item">
+              <a
+                class="mobile-menu__socials-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Instagram</a
+              >
+            </li>
+            <li class="mobile-menu__socials-item">
+              <a
+                class="mobile-menu__socials-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Twitter</a
+              >
+            </li>
+            <li class="mobile-menu__socials-item">
+              <a
+                class="mobile-menu__socials-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Facebook</a
+              >
+            </li>
+            <li class="mobile-menu__socials-item">
+              <a
+                class="mobile-menu__socials-link"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </div>
+        <button
+          class="mobile-menu-btn is-open"
+          type="button"
+          aria-label="мобільне меню"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          data-menu-button
+        >
+          <svg class="mobile-menu-icon" width="24" height="16">
+            <use class="mobile-menu-burger" href="./images/icons.svg#icon-burger"></use>
+            <use class="mobile-menu-close" href="./images/icons.svg#icon-close-burger-btn"></use>
+          </svg>
+        </button>
 
         <nav class="navigation">
           <ul class="navigation__navigation-list">
