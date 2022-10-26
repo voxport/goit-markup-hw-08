@@ -33,6 +33,10 @@
   @media (min-width: 768px) and (max-width: 1199px) {
     margin-right: 165px;
   }
+
+  @media (min-width:1200px) {
+    margin-bottom: 0px;
+  }
 }
 
 .footer__address {
@@ -100,6 +104,10 @@
 
 .footer__join {
   margin-bottom: 60px;
+
+  @media (min-width:1200px) {
+    margin-bottom: 0px;
+  }
 }
 
 .join__list {
